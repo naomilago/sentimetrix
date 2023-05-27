@@ -1,0 +1,13 @@
+scikit-learn
+matplotlib
+seaborn
+gensim
+loguru
+gensim
+joblib
+pandas
+joblib
+spacy
+numpy
+emoji
+nltk
