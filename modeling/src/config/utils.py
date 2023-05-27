@@ -8,6 +8,7 @@ import matplotlib as mpl
 import pandas as pd
 import unicodedata
 import numpy as np
+import warnings
 import gensim
 import string
 import spacy
@@ -30,6 +31,8 @@ from itertools import (
   dropwhile, 
   takewhile
 )
+
+warnings.filterwarnings("ignore")
 
 mpl.rcParams['figure.dpi'] = 400
 
@@ -111,7 +114,7 @@ def ngrams(text: str, ngram: int = 2, stopwords: List[str] = STOPWORDS) -> List[
     
     return ['_'.join(ngram) for ngram in temp]
 
-def preprocessing(df: pd.DataFrame, message: str = 'text', nlp: spacy.lang.en.English = spacy.load(DATA_INPUTS['SPACY_MODEL']), stopwords: List[str] = STOPWORDS) -> pd.DataFrame:
+def preprocessing(df: pd.DataFrame, message: str = 'text', nlp: spacy.lang.en.English = spacy.load(DATA_INPUTS['SPACY_MODEL']), stopwords: List[str] = STOPWORDS) -> pd.DataFrame:        
         df["processed_messages"] = df.loc[:, message].apply(clean_msg)
         processed_messages = list()
         pos_msgs = list()
