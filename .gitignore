@@ -1,2 +1,37 @@
-.venv
+# Internal data
 modeling/src/data
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+dist/
+build/
+eggs/
+*.egg-info/
+.env
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.pydevproject
+*.pyc
+*.bak
+*.swp
+*~
+
+# Testing
+test-reports/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
