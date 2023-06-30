@@ -46,7 +46,7 @@ pip install -r src/requirements.txt
 
 ## Contributing
 
-We welcome contributions from the community! If you are interested in contributing to Sentimetrix, please contact our creators for more information at [rafaelsantana18059@gmail.com](mailto:rafaelsantana18059@gmail.com) or [contact@naomilago.com](mailto:contact@naomilago.com). We are always looking for ways to improve and welcome your ideas and contributions. Thank you for your interest in Sentimetrix!
+We welcome contributions from the community! If you are interested in contributing to Sentimetrix, please contact our creators for more information at [rafaelsantana18059@gmail.com](mailto:rafaelsantana18059@gmail.com), [contact@naomilago.com](mailto:contact@naomilago.com) or [g3rley@gmail.com](mailto:g3rley@gmail.com). We are always looking for ways to improve and welcome your ideas and contributions. Thank you for your interest in Sentimetrix!
 
 ## License
 
